@@ -2,8 +2,8 @@ def new_hash
 	Hash.new
 end
 
-def actor(input)
-	Hash.new { |actor, name| actor[name] = input }
+def actor
+	Hash.new { |actor, name| actor[name] = "The Rock Johnson" }
 end
 
 def monopoly
